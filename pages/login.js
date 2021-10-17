@@ -1,5 +1,4 @@
 import { Auth, Typography, Button } from "@supabase/ui";
-import { createClient } from "@supabase/supabase-js";
 import supabase from "../utils/initSupabase";
 
 const Container = (props) => {
