@@ -19,7 +19,7 @@ export default function AuthBasic() {
   return (
     <Auth.UserContextProvider supabaseClient={supabase}>
       <Container supabaseClient={supabase}>
-        <Auth supabaseClient={supabase} providers={["github"]} />
+        <Auth supabaseClient={supabase} providers={["github"]} redirectTo="/profile" />
       </Container>
     </Auth.UserContextProvider>
   );
