@@ -1,21 +1,13 @@
 import Head from 'next/head'
 import { Button } from "@supabase/ui";
 import Footer from '../Components/Footer';
+import TodoApp from '../Components/TodoApp';
 
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <Button>Hello</Button>
-      </main>
-
-      <Footer />
-    </div>
+    <main className="container mx-auto py-5 px-5 md:px-0 flex justify-center items-center">
+      <TodoApp />
+    </main>
   )
 }
