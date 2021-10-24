@@ -1,8 +1,4 @@
-import Head from 'next/head'
-import { Button } from "@supabase/ui";
-import Footer from '../Components/Footer';
 import TodoApp from '../Components/TodoApp';
-
 
 export default function Home() {
   return (
